@@ -1,0 +1,16 @@
+{
+"version": "1.0.0",
+"description": "sit323 T1 Week 2",
+"main": "server.js",
+"scripts": {
+  "start": "node server_get.js"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/koiCoding/SIT323.git"
+},
+  
+"dependencies": {
+  "express": "^4.18.3"
+}
+}
