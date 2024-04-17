@@ -1,0 +1,27 @@
+{"level":"error","message":"n1 is incorrectly defined","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for mulptiplication","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for subtraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for division","service":"calculate-service"}
+{"level":"error","message":"Result does not exist!","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for subtraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for division","service":"calculate-service"}
+{"level":"error","message":"Result does not exist!","service":"calculate-service"}
+{"level":"info","message":"Parameters 2 and 0 received for exponentiation","service":"calculate-service"}
+{"level":"error","message":"n2 is invalid input!","service":"calculate-service"}
+{"level":"error","message":"n2 is invalid input!","service":"calculate-service"}
+{"level":"info","message":"Parameters 2 and 4 received for exponentiation","service":"calculate-service"}
+{"level":"info","message":"Parameters 2 and 4 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 2 and 4 received for subtraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 2 and 4 received for division","service":"calculate-service"}
+{"level":"error","message":"Result does not exist!","service":"calculate-service"}
+{"level":"info","message":"Parameters 2 and 0 received for exponentiation","service":"calculate-service"}
+{"level":"error","message":"n2 is invalid input!","service":"calculate-service"}
+{"level":"info","message":"Parameters 2 received for square root","service":"calculate-service"}
+{"level":"info","message":"Parameters -2 received for square root","service":"calculate-service"}
+{"level":"info","message":"Parameters -2 and 3 received for modulo operation","service":"calculate-service"}
+{"level":"info","message":"Parameters -2 and 3 received for modulo operation","service":"calculate-service"}
+{"level":"info","message":"Parameters 4 and 3 received for modulo operation","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for addition","service":"calculate-service"}

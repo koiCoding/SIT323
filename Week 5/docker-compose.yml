@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    image: koicoding/week5prac:1.1.1
+    ports:
+      - '3040:3040'
+    environment:
+      - PORT=3040
+    container_name: my-app
+    networks:
+      - my-net
+
+  app1:
+    build: .
+    image: koicoding/week5prac:1.1.1
+    ports:
+      - '3041:3040'
+    environment:
+      - PORT=3040
+    container_name: my-app1
+    networks:
+      - my-net
+
+
+networks:
+  my-net:
+    driver: bridge
