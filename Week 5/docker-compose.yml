@@ -1,12 +1,14 @@
 version: '3.8'
+#docker compose to run both containers/microservices with created bridge network.
+#There are two containers my-app and my-app1 running from one image but different build.
 services:
   app:
     build: .
     image: koicoding/week5prac:1.1.1
     ports:
-      - '3040:3040'
+      - '3041:3040'
     environment:
-      - PORT=3040
+      - PORT=3041
     container_name: my-app
     networks:
       - my-net
@@ -15,14 +17,14 @@ services:
     build: .
     image: koicoding/week5prac:1.1.1
     ports:
-      - '3041:3040'
+      - '3042:3040'
     environment:
-      - PORT=3040
+      - PORT=3042
     container_name: my-app1
     networks:
       - my-net
 
-
+#using docker network to communicate between two containers that are running above through bridge network
 networks:
   my-net:
     driver: bridge
