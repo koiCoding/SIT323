@@ -6,7 +6,7 @@ metadata:
     tier: frontend
 spec:
   containers:
-  - image: koicoding/week6prac:latest
+  - image: alamfaisal654/node-web-app:1.1.1
     imagePullPolicy: Never
     name: nodewebapp
     ports:

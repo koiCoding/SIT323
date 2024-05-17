@@ -25,3 +25,4 @@
 {"level":"info","message":"Parameters -2 and 3 received for modulo operation","service":"calculate-service"}
 {"level":"info","message":"Parameters 4 and 3 received for modulo operation","service":"calculate-service"}
 {"level":"info","message":"Parameters 12 and 19 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 12 and 19 received for subtraction","service":"calculate-service"}

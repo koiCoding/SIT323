@@ -19,6 +19,6 @@ spec:
       containers:
       - name: mynode
         imagePullPolicy: Never
-        image: koicoding/week6prac:latest
+        image: alamfaisal654/node-web-app:1.1.1
         ports:
         - containerPort: 3040
